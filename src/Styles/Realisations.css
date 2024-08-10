@@ -1,0 +1,120 @@
+@media (max-width: 767px) {
+    .realisations_page {
+        padding-top: 25px;
+        padding-bottom: 50px;
+        background-color: #F8F9FB;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .realisations_page {
+        padding-top: 25px;
+        padding-bottom: 50px;
+        background-color: #F8F9FB;
+    }
+}
+
+@media (min-width: 992px) {
+    .realisations_page {
+        padding-top: 25px;
+        padding-bottom: 50px;
+        background-color: #F8F9FB;
+    }
+}
+
+p {
+    color: #444;
+}
+
+.text-intro-pp {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0 2rem 0 2rem;
+}
+
+@media (max-width: 767px) {
+    .blue-stroke-pp {
+        width: 76px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .blue-stroke-pp {
+        width: 150px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .blue-stroke-pp {
+        width: 240px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container-realisations {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .center {
+        width: 92%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 4%;
+    }
+}
+
+@media (min-width: 992px) {
+    .center {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .realisations {
+        width: 100%;
+        padding: 0 0.5rem !important;
+        position: relative;
+        left: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .realisations {
+        position: relative;
+        left: 12px;
+        width: 95%;
+        height: 100%;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+    .realisations {
+        justify-content: center;
+    }
+}
+
+.realisation-card {
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: flex-start;
+}
+
+.intitule-pp {
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+.description-pp {
+    font-size: 0.9rem;
+}
+
+.card-footer-content {
+    color: #444;
+}

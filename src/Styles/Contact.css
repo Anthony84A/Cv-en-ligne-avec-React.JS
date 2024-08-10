@@ -1,0 +1,153 @@
+.contact-page {
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+.bg-image-cp::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 105, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.bg-image-cp {
+    position: relative;
+}
+
+.bg-image-cp>* {
+    position: relative;
+    z-index: 10;
+}
+
+.bg-image-cp {
+    height: 100%;
+    background-image: url(../Images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.h2-cp {
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+p {
+    color: #444;
+}
+
+.intro-text-cp {
+    font-size: 1.25rem;
+    margin: 0 3rem 1rem 3rem;
+}
+
+@media (max-width: 767px) {
+    .blue-stroke-cp {
+        width: 76px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .blue-stroke-cp {
+        width: 155px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .blue-stroke-cp {
+        width: 240px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .h3-cp {
+        color: #1e1e1e;
+        font-size: calc(1.375rem + 1.5vw) !important;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 992px) {
+    .h3-cp {
+        color: #1e1e1e;
+        font-size: calc(1.325rem + .9vw) !important;
+        font-weight: 600;
+    }
+}
+
+
+.blue-stroke-cp-2 {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.span-cp-1 {
+    height: 24px;
+}
+
+
+
+.iframe-cp {
+    align-self: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .iframe-cp {
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .iframe-cp {
+        width: 245px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .iframe-cp {
+        width: 295px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .iframe-cp {
+        width: 307px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .iframe-cp {
+        width: 419px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .iframe-cp {
+        width: 435px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+    .iframe-cp {
+        width: 523px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .iframe-cp {
+        width: 643px;
+    }
+}

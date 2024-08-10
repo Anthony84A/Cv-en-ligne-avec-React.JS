@@ -1,0 +1,148 @@
+footer {
+    background-color: #EEE;
+}
+
+.footer-main-content {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .footer-main-content {
+        padding-left: 1rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-main-content {
+        padding-left: 0 !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-main-content {
+        padding-left: 1rem !important;
+        padding-bottom: 3rem;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .row>* {
+        max-width: 95% !important;
+    }
+
+    .footer-element-1-2 {
+        display: flex;
+        margin: 0 3rem 1rem 3rem;
+    }
+
+    .footer-element-3-4 {
+        display: flex;
+        margin: 0 3rem;
+    }
+
+    .footer-element-1-2> :first-child {
+        position: relative;
+
+    }
+
+    .footer-element-3-4> :first-child {
+        position: relative;
+
+    }
+
+    .footer-element-1-2> :nth-last-child(1) {
+        position: absolute;
+        left: 50vw;
+        width: 140px;
+    }
+
+    .footer-element-3-4> :nth-last-child(1) {
+        position: absolute;
+        left: 50vw;
+        width: 238px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-elements {
+        width: fit-content !important;
+    }
+}
+
+h2 {
+    font-weight: 600;
+    font-size: calc(0.95rem + 0.9vw) !important;
+    color: var(--bs-cvdark);
+}
+
+@media (min-width: 992px) {
+    .h2-footer {
+        font-size: calc(1.275rem + .3vw) !important;
+    }
+}
+
+ul {
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+@media (min-width: 992px) {
+    .ul-footer {
+        width: 100% !important;
+    }
+}
+
+.footer-elements:nth-child(n+2) ul {
+    margin-left: 0.4rem;
+}
+
+.footer-elements:first-child .icon-link-container {
+    pointer-events: none;
+}
+
+.icon-link-container p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--bs-cvdark) !important;
+    font-weight: 400;
+}
+
+.footer-element-1-2> :last-child .social-icons {
+    display: none;
+}
+
+footer .footer-main-content>div:nth-child(n+2) .social-icons {
+    display: none;
+}
+
+.social-icons {
+    width: 50%;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: space-between;
+    width: 143px;
+    padding-left: 10px !important;
+    margin-bottom: 4px;
+}
+
+.social-icons ul li {
+    flex-basis: 28px;
+}
+
+.social-icons ul li a img {
+    width: 100%;
+}
+
+.copyright {
+    display: block;
+    width: 100%;
+    background-color: #1e1e1e;
+}

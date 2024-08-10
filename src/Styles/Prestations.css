@@ -1,0 +1,68 @@
+@media (max-width: 767px) {
+    .prestations {
+        margin: 0 1rem !important;
+    }
+
+    .prestation-1 {
+        padding: 0 !important;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .prestation-2 {
+        padding: 0 !important;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .prestation-3 {
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .prestations {
+        width: 100%;
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services-card-content {
+        padding: 3rem 1.25rem 80px 1.25rem !important;
+    }
+}
+
+.card:hover .services-card-content .fa-icon {
+    color: #cde1f8 !important;
+}
+
+@media (min-width: 768px) {
+    .services-card-content {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+.card-title {
+    color: #1e1e1e !important;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .card-title-p {
+        font-size: 1.25rem;
+    }
+
+    .description-p {
+        font-size: 0.95rem;
+    }
+}
+
+strong {
+    font-weight: 600;
+}
+
+.underlined {
+    text-decoration: underline dotted;
+    text-decoration-color: #444;
+}
