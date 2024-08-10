@@ -27,4 +27,7 @@ retrouver les screens des validateurs W3C dans src/w3c
 
 #### INFO HEBERGEMENT ####
 
-Le site est censé être hébergé sur always data, or il fait plus de 100mo pour la version gratuite, il n'est donc pas hébergé.
+Le site est censé être hébergé sur always data, or il fait plus de 100mo pour la version gratuite, il n'est donc pas hébergé. (voir screen)
+
+
+![alt text](./src/Hébergement/Always_data_screen.png)
